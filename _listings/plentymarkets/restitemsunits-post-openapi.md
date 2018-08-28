@@ -3,8 +3,8 @@ swagger: "2.0"
 x-collection-name: Plentymarkets
 x-complete: 0
 info:
-  title: Plentymarkets List unit names
-  description: Lists the unit names of a unit. The ID of the unit must be specified.
+  title: Plentymarkets Create a unit
+  description: Creates a unit.
   contact:
     name: plentymarkets
     url: https://forum.plentymarkets.com/c/rest-api

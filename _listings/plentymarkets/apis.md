@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Units
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
 apis:
@@ -28,6 +28,46 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunits-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunits-get-openapi.md
+- name: plentymarkets REST-API - Create a unit
+  x-api-slug: restitemsunits-post
+  description: Creates a unit.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunits-post-openapi.md
+- name: plentymarkets REST-API - Delete a unit
+  x-api-slug: restitemsunitsid-delete
+  description: Deletes a unit. The ID of the unit must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsid-delete-openapi.md
+- name: plentymarkets REST-API - Get a unit
+  x-api-slug: restitemsunitsid-get
+  description: Gets a unit. The ID of the unit must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsid-get-openapi.md
+- name: plentymarkets REST-API - Update a unit
+  x-api-slug: restitemsunitsid-put
+  description: Updates a unit. The ID of the unit must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsid-put-openapi.md
 - name: plentymarkets REST-API - List unit names
   x-api-slug: restitemsunitsidnames-get
   description: Lists the unit names of a unit. The ID of the unit must be specified.
@@ -40,6 +80,86 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsidnames-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsidnames-get-openapi.md
+- name: plentymarkets REST-API - Create a unit name
+  x-api-slug: restitemsunitsidnames-post
+  description: Creates a unit name. The ID of the unit and the language must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsidnames-post-openapi.md
+- name: plentymarkets REST-API - Delete a unit name
+  x-api-slug: restitemsunitsidnameslang-delete
+  description: Deletes a unit name. The ID of the unit and the language must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsidnameslang-delete-openapi.md
+- name: plentymarkets REST-API - Get a unit name
+  x-api-slug: restitemsunitsidnameslang-get
+  description: Gets a unit name. The ID of the unit and the language must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsidnameslang-get-openapi.md
+- name: plentymarkets REST-API - Update a unit name
+  x-api-slug: restitemsunitsidnameslang-put
+  description: Updates a unit name. The ID of the unit and the language must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsidnameslang-put-openapi.md
+- name: plentymarkets REST-API - Create a unit
+  x-api-slug: restitemsunits-post
+  description: Creates a unit.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunits-post-openapi.md
+- name: plentymarkets REST-API - Delete a unit
+  x-api-slug: restitemsunitsid-delete
+  description: Deletes a unit. The ID of the unit must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsid-delete-openapi.md
+- name: plentymarkets REST-API - Get a unit
+  x-api-slug: restitemsunitsid-get
+  description: Gets a unit. The ID of the unit must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsid-get-openapi.md
+- name: plentymarkets REST-API - Update a unit
+  x-api-slug: restitemsunitsid-put
+  description: Updates a unit. The ID of the unit must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsid-put-openapi.md
 - name: plentymarkets REST-API - List unit names
   x-api-slug: restitemsunitsidnames-get
   description: Lists the unit names of a unit. The ID of the unit must be specified.
@@ -52,6 +172,138 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsidnames-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsidnames-get-openapi.md
+- name: plentymarkets REST-API - Create a unit name
+  x-api-slug: restitemsunitsidnames-post
+  description: Creates a unit name. The ID of the unit and the language must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsidnames-post-openapi.md
+- name: plentymarkets REST-API - Delete a unit name
+  x-api-slug: restitemsunitsidnameslang-delete
+  description: Deletes a unit name. The ID of the unit and the language must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsidnameslang-delete-openapi.md
+- name: plentymarkets REST-API - Get a unit name
+  x-api-slug: restitemsunitsidnameslang-get
+  description: Gets a unit name. The ID of the unit and the language must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsidnameslang-get-openapi.md
+- name: plentymarkets REST-API - Update a unit name
+  x-api-slug: restitemsunitsidnameslang-put
+  description: Updates a unit name. The ID of the unit and the language must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsidnameslang-put-openapi.md
+- name: plentymarkets REST-API - Update a unit name
+  x-api-slug: restitemsunitsidnameslang-put
+  description: Updates a unit name. The ID of the unit and the language must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsidnameslang-put-openapi.md
+- name: plentymarkets REST-API - Get a unit name
+  x-api-slug: restitemsunitsidnameslang-get
+  description: Gets a unit name. The ID of the unit and the language must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsidnameslang-get-openapi.md
+- name: plentymarkets REST-API - Delete a unit name
+  x-api-slug: restitemsunitsidnameslang-delete
+  description: Deletes a unit name. The ID of the unit and the language must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsidnameslang-delete-openapi.md
+- name: plentymarkets REST-API - Create a unit name
+  x-api-slug: restitemsunitsidnames-post
+  description: Creates a unit name. The ID of the unit and the language must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsidnames-post-openapi.md
+- name: plentymarkets REST-API - List unit names
+  x-api-slug: restitemsunitsidnames-get
+  description: Lists the unit names of a unit. The ID of the unit must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsidnames-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsidnames-get-openapi.md
+- name: plentymarkets REST-API - Update a unit
+  x-api-slug: restitemsunitsid-put
+  description: Updates a unit. The ID of the unit must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsid-put-openapi.md
+- name: plentymarkets REST-API - Get a unit
+  x-api-slug: restitemsunitsid-get
+  description: Gets a unit. The ID of the unit must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsid-get-openapi.md
+- name: plentymarkets REST-API - Delete a unit
+  x-api-slug: restitemsunitsid-delete
+  description: Deletes a unit. The ID of the unit must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunitsid-delete-openapi.md
+- name: plentymarkets REST-API - Create a unit
+  x-api-slug: restitemsunits-post
+  description: Creates a unit.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/units/master/_listings/plentymarkets/restitemsunits-post-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.plentymarkets.co.uk/?ActionCall=WebActionRSS&rrss_id=1
